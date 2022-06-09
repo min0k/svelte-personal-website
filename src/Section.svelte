@@ -8,8 +8,8 @@
   <p style="color: {$theme.header};">{sectionName}</p>
   <ul>
     {#each sectionItems as item}
-      <li style="color: {$theme.text};">
-        {item.name}
+      <li>
+        <a style="color: {$theme.text};" href={item.href}> {item.name}</a>
         <span style="color: {$theme.secondaryText};">{item.date}</span>
       </li>
     {/each}
@@ -17,6 +17,9 @@
 </section>
 
 <style>
+  a {
+    color: black;
+  }
   p {
     font-weight: bold;
   }

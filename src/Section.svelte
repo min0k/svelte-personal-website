@@ -19,6 +19,7 @@
 <style>
   a {
     color: black;
+    line-height: 24px;
   }
   p {
     font-weight: bold;

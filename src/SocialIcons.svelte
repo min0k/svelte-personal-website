@@ -49,4 +49,7 @@
   svg {
     padding-right: 4px;
   }
+  svg:hover {
+    opacity: 0.5;
+  }
 </style>
